@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.section {
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    overflow: auto;
+}
+
+.navbar{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar p{
+    margin-inline: 1rem;
+}
+
+.header h1{
+    padding-inline: 1rem;
+}
+
+.header h1{
+    width: 100vw;
+    text-align: left;
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    margin: 0;
+    padding-top: 1rem;
+    font-weight: bold;
+    
+}
+.header h1:hover{
+    color: white;
+}
+
+.jumbotron{
+    display: flex;
+    background: linear-gradient(to left top,#00f,red) 50% fixed;
+    background-size: cover;
+    color: #fff;
+    height: 50px;
+    text-shadow: 0.25px 0.25px 0.25px #000;
+    width: 100%;
+    border-top: 5px solid rgb(160, 159, 159);
+}
+
+.jumbotron p{
+    text-align: center;
+    margin: 0 0 20px;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.container{
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    background: #fff;
+    border: 5px solid #fff;
+    border-radius: 2px;
+    margin: 40px 20px;
+    position: relative;
+    height: 300px;
+    width: 250px;
+    box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+    transition: box-shadow .1s ease-in-out;
+    text-align: left;
+}
+
+.card:hover{
+    box-shadow: 0 12px 24px #999, 0 12px 24px #999;
+    height: 300px;
+    width: 250;
+    cursor: pointer;
+}
+.card-img{
+    height: 80%;
+    width: 100%;
+}
+
+.card-img img{
+    width: 80%;
+    height: 100%;
+    overflow: clip;
+    padding-inline: 1rem;
+}
+
+.body ul li {
+    list-style: none;
+}
